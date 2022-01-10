@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #44a08d, #093637);
+  text-decoration: none;
+}
+
+nav {
+  background: #000;
+  height: 15vh;
+}
+
+label {
+  color: white;
+  font-size: 2em;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 1vh;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 3vh;
+  margin: 0 5px;
+}
+span {
+  color: blue;
+}

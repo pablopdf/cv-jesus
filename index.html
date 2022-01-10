@@ -17,27 +17,19 @@
   </head>
   <body>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <img src="img/menu.png" alt="hamburguer" class="menu" />
-        </label>
-        <label for="" class="logo">
-        <h2 class="logo">Jesús<span>Mansilla<span></h2>
-        </label>
+      <label class="logo"><h2>Jesús<span>Mansilla <span></h2>
+      </label>
 
-      <ul>
-        <li><a href="#titulo">Titulo</a></li>
-        <li><a href="#">Educación</a></li>
-        <li><a href="#">Experiencias Laborales</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Hobbies</a></li>
+      <ul class="menu">
+        <li><a href="#titulo">Sobre mí</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
       </ul>
-      <div class="box">
-        <button type="button">Hablemos</button>
-      </div>
     </nav>
        <presentacion>
-        <titulo id="titulo">
+        <titulo class="sobre-mi" id="titulo">
           <div><h1>Hola mi nombre es,   <span>Jesús</span> Mansilla</h1>
             <p>Gracias por llegar hasta acá y querer conocerme</p></div>
         </titulo>
@@ -50,7 +42,7 @@
           </p>
         </descripcionp>
       </presentacion>
-      <educacion>
+      <educacion class="educación" id="educacion">
         <h2>Educación</h2>
         <li>
             <h3>HTML</h3>
@@ -65,5 +57,24 @@
             <span class="bar"><span class="javascript"></span></span>
         </li>
       </educacion>
+
+      <proyectos class="proyectos" id="proyectos">
+        <div class="card">
+          <div class="face front">
+            <img src="main.png" alt="">
+            <h3>Cv Jesús</h3>
+          </div>
+
+          <div class="face back">
+            <h3>Curriculum</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos saepe ducimus voluptatibus exercitationem vel praesentium error alias suscipit, nostrum aliquid placeat expedita, libero reiciendis iste?</p>
+            <div class="link">
+              <a href="#"><button>Ver Proyecto</button></a>
+            </div>
+            
+          </div>          
+        </div>
+      </proyectos>
+  <script src="toogle.js"></script>
   </body>
   </html>
